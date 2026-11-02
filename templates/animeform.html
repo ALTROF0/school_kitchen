@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ANIME REGISTRATION</title>
+        <link rel="stylesheet" href="/static/animestyle.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 id="form-title">ANIME REGISTRATION</h1>
+            <p class="subtitle">WATASHI WA OTAKU</p>
+
+            <form id="registration-form" novalidate>
+                <div class="form-group">
+                    <label for="anime">ANIME NAME</label>
+                    <input type="text" id="anime" placeholder="EG I WAS REINCARNED AS A VENDING MACHINE">
+                    <p class="error-message" id="anime-error"></p>
+                </div>
+                <div class="form-group">
+                    <label for="maincharacter">MAIN CHARACTER NAME</label>
+                    <input type="text" id="maincharacter" placeholder="EG. ZENITSU">
+                    <p class="error-message" id="maincharacter-error"></p>
+                </div>
+                <div class="form-group">
+                    <label for="sidecharacter">SIDE CHARACTER</label>
+                    <input type="text" id="sidecharacter" placeholder="EG NOBORA">
+                    <p class="error-message" id="sidecharacter-error"></p>
+                </div>
+                <div class="form-group">
+                    <label for="maincharacter-Power">MC POWER</label>
+                    <input type="text" id="maincharacter-Power" placeholder="EG ELEMENTAL">
+                    <p class="error-message" id="maincharacter-Power-error"></p>
+                </div>
+                <div class="form-group">
+                    <label for="sidecharacter-Power">SC POWER</label>
+                    <input type="text" id="sidecharacter-Power" placeholder="EG ELEMENTAL">
+                    <p class="error-message" id="sidecharacter-Power-error"></p>
+                </div>
+                <div class="form-group">
+                    <label for="WORDS">WORDS</label>
+                    <input type="text" id="WORDS" placeholder="EG WHO DECIDED THAT">
+                    <p class="error-message" id="WORDS-error"></p>
+                </div>
+                <div class="form-group">
+                    <label for="STATS">STATS</label>
+                    <input type="number" id="STATS" placeholder="EG 200">
+                    <p class="error-message" id="STATS-error"></p>
+                </div>
+                <button type="submit" id="submit-btn" disabled>WATASHI WA SUBMIT</button>
+            </form>
+
+            <div id="success-message" class="hidden">
+                <p>SAMPLE THIS ANIME</p>
+                <video controls width="400">
+                    <source src="/static/Vikings.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        <script src="/static/animefunction.js"></script>
+    </body>
+</html>

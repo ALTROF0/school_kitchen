@@ -1,0 +1,9 @@
+.board{width: 100%; border-collapse: collapse;}
+html{height: 100%;background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);}
+.board td{padding: 10px 14px; border-bottom: 1px solid #1E3A5F;color:#030cff}
+.board th{background-color: #040404; color: #7bfe00; padding: 10px 14px; text-align: left;}
+tr:nth-child(even) {background-color: #f2f2f2;font-family: 'Courier New', Courier, monospace;color: #06f7ff;}
+tr:hover {background-color: #ce0707;}
+.functionButtons{margin-top: 20px; display: flex; justify-content: center; gap: 10px;}
+button{padding: 10px 20px; background-color: #030303; color: #ff0101; border: none; cursor: pointer; font-size: 16px;border-radius: 5px;}
+button:hover{background-color: #ff0101; color: #ffffff;transform: scale(1.05); transition: all 0.3s ease;}

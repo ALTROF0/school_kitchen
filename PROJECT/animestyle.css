@@ -1,0 +1,16 @@
+*{box-sizing: border-box;margin: 0; padding: 0;}
+body{background-color: #010434;font-family: 'Times New Roman', Times, serif;font-size: 20px;padding: 50px 40px;display: flex;justify-content: center;align-items: center;}
+.container:hover{background-color: #2d312d;border-radius: 16px;transition: all 1.5s ease-in-out;transform: scale(1.17);}
+h1{font-size: 30px;font-weight: bold;font-style: italic;color: #000031;background-color: #6cf5fa;text-align: center;margin-bottom: 30px;border-radius: 8px;padding: 10px;}
+.container{background-color:#000000;border-radius: 16px;padding: 30px 25px;width: 100vh;max-width: 90%;box-shadow: 0 12px 40px rgb(90, 2, 2);border: 1px solid #124628b9;}
+.subtitle{font-size: 20px;font-style: normal;font-display: block;font-weight: bold;color: #7c0574;background-color: #fcb901;text-align: center;margin-bottom: 10px;border-radius: 8px;padding: 10px;box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);}
+.form-group:hover{padding: 15px;transition: all 0.5s ease-in-out;transform: translateX(0PX);background-color: #00023d;border-radius: 8px;box-shadow: 0 4px 6px rgba(3, 231, 170, 0.621);}
+label{font-size: 20px;font-weight: bold;color: #ffd500b2;display: block;}
+input{width: 100%;padding: 5px 10px;font-size: 15px;border: 1px solid #fc0101;border-radius: 8px;}
+input:focus{border: 1px solid #15ff00;border-radius: 8px;}
+input:hover{transition: all 0.9s ease-in-out;transform: scale(1.00);}
+.error-message{color: red;font-size: 16px;}
+button{width: 100%;padding: 12px;font-size: 16px;font-weight: bold;color: rgb(90, 2, 2);background-color: #0a0149;border: none;border-radius: 8px;cursor: pointer;transition: all 0.9s ease-in-out;}
+button:hover{transform: scale(1.05);box-shadow: 0 4px 15px rgba(38, 0, 255, 0.57);}
+.hidden{display: none;}
+video{box-shadow: 8px 8px 8px rgba(31, 229, 226, 0.716);border-radius: 20px;}

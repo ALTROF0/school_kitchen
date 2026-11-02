@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>ANIME TABLE</title>
+        <link rel="stylesheet" href="/static/animetable.css">
+    </head>
+    <body>
+        <h1 id="count">LOADING...</h1>
+        <table class="board">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>ANIME NAME</th>
+                    <th>MAIN CHARACTER</th>
+                    <th>SIDE CHARACTER</th>
+                    <th>MC POWER</th>
+                    <th>SC POWER</th>
+                    <th>WORDS</th>
+                    <th>STATS</th>
+                    <th>ACTIONS</th>
+                </tr>
+            </thead>
+            <tbody id="animeTable"></tbody>
+        </table>
+        <div class="functionButtons">
+            <a href="/animeform.html"><button id="addAnime">Add Anime</button></a>
+        </div>
+        <script src="/static/animetable.js"></script>
+    </body>
+</html>

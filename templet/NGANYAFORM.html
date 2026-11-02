@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NGANYA REGISTRATION</title>
+<link rel="stylesheet" href="/function/NGANYAFORM.css">
+</head> 
+<body> 
+    <div class="container">
+<h1>NGANYA REGISTRATION</h1>
+<p class="subtitle">Fill in all fields correctly to submit</p>
+<form id="registration-form">
+<!-- Name field -->
+<div class="form-group">
+<label for="name">Full Name *</label>
+<input type="text" id="name" placeholder="e.g. John Doe" required>
+<p class="error-message" id="name-error"></p>
+</div> 
+<!-- Email field -->
+<div class="form-group">
+<label for="email">Email Address *</label>
+<input type="email" id="email" placeholder="e.g. john@example.com" required>
+<p class="error-message" id="email-error"></p>
+</div> 
+<!-- Password field -->
+<div class="form-group">
+<label for="password">Password *</label>
+<input type="password" id="password" placeholder="At least 8 characters" required>
+<p class="error-message" id="password-error"></p>
+</div>
+<!-- Confirm password field -->
+<div class="form-group">
+<label for="confirm-password">Confirm Password *</label>
+<input type="password" id="confirm-password" placeholder="Repeat your password" required>
+<p class="error-message" id="confirm-error"></p>
+</div>
+<!-- Age field -->
+<div class="form-group">
+<label for="age">Age *</label>
+<input type="number" id="age" placeholder="e.g. 16" required>
+<p class="error-message" id="age-error"></p>
+</div>
+<!-- Road field -->
+<div class="form-group">
+<label for="road">Road *</label>
+<input type="text" id="road" placeholder="e.g. Main Street" required>
+<p class="error-message" id="road-error"></p>
+</div> 
+<!-- Submit button -->
+<button type="submit" id="submit-btn" disabled>Submit</button>
+</form>
+<!-- Success message (hidden initially) -->
+<div id="success-message" class="hidden">
+✅ Form submitted successfully!
+</div>
+</div>
+<script src="/function/NGANYAFORM.js"></script>
+</body>
+</html>
